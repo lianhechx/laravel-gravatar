@@ -1,0 +1,27 @@
+{
+    "name": "lianhechx/laravel-gravatar",
+    "description": "A Laravel gravatar package for retrieving gravatar image URLs or checking the existance of an image.",
+    "keywords": ["laravel", "gravatar", "avatar"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chen",
+            "email": "lianhechx@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Opbol\\Gravatar\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
